@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean class="com.mahesh.Model.Employee" id="t1" scope="singleton">
+		<property name="gender" value="Mr."></property>
+		<property name="schoolName" value="KHK"></property>
+		<property name="marks" value="89.78"></property>
+		<property name="address" value="Khotwadi"></property>
+		<property name="mobile" value="8446329756"></property>
+	</bean>
+</beans>			
